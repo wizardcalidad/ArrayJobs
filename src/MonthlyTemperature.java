@@ -51,7 +51,7 @@ public class MonthlyTemperature {
         System.out.println();
         System.out.println("**Temperature entered for day " + day + "**");
         System.out.println();
-        for (int week = 1; week <= temperature.length; day++) {
+        for (int week = 1; week <= temperature.length; week++) {
             System.out.println("week " + week + "day " + day + ":" + temperature[week - 1][day - 1]);
         }
 
